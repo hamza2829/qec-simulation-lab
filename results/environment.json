@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-02T23:12:15.272277+00:00",
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "matplotlib": "3.10.8",
+    "torch": "2.10.0+cpu"
+  },
+  "device": "cpu",
+  "torch_cuda_build": null,
+  "seed_caution": "Stim SIMD/platform and package versions can change exact samples despite the same seed",
+  "elapsed_seconds": 52.52991579999798,
+  "torch_threads": 1
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.0,
+    "rounds": 3,
+    "seed": 20262102,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 21,
+      "shots": 3000,
+      "logical_error_rate": 0.007,
+      "ci95": [
+        0.004583051714804159,
+        0.010677893128367241
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 38,
+      "shots": 3000,
+      "logical_error_rate": 0.012666666666666666,
+      "ci95": [
+        0.00924242683594685,
+        0.01733735772167086
+      ]
+    },
+    "final_majority": {
+      "failures": 38,
+      "shots": 3000,
+      "logical_error_rate": 0.012666666666666666,
+      "ci95": [
+        0.00924242683594685,
+        0.01733735772167086
+      ]
+    }
+  },
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.02,
+    "rounds": 3,
+    "seed": 20262103,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 26,
+      "shots": 3000,
+      "logical_error_rate": 0.008666666666666666,
+      "ci95": [
+        0.005921269051362266,
+        0.012668746296058048
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 69,
+      "shots": 3000,
+      "logical_error_rate": 0.023,
+      "ci95": [
+        0.018214723738022676,
+        0.029005297945938296
+      ]
+    },
+    "final_majority": {
+      "failures": 25,
+      "shots": 3000,
+      "logical_error_rate": 0.008333333333333333,
+      "ci95": [
+        0.005650966062941269,
+        0.012273235183629263
+      ]
+    }
+  },
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.05,
+    "rounds": 3,
+    "seed": 20262104,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 24,
+      "shots": 3000,
+      "logical_error_rate": 0.008,
+      "ci95": [
+        0.005381913474637302,
+        0.011876473671083446
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 183,
+      "shots": 3000,
+      "logical_error_rate": 0.061,
+      "ci95": [
+        0.05298433102545966,
+        0.07013849815537654
+      ]
+    },
+    "final_majority": {
+      "failures": 29,
+      "shots": 3000,
+      "logical_error_rate": 0.009666666666666667,
+      "ci95": [
+        0.0067390263076782565,
+        0.013848431342291408
+      ]
+    }
+  },
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.0,
+    "rounds": 5,
+    "seed": 20262105,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 18,
+      "shots": 3000,
+      "logical_error_rate": 0.006,
+      "ci95": [
+        0.003798702829958543,
+        0.00946479971066351
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 78,
+      "shots": 3000,
+      "logical_error_rate": 0.026,
+      "ci95": [
+        0.02088314953637451,
+        0.0323291990552345
+      ]
+    },
+    "final_majority": {
+      "failures": 78,
+      "shots": 3000,
+      "logical_error_rate": 0.026,
+      "ci95": [
+        0.02088314953637451,
+        0.0323291990552345
+      ]
+    }
+  },
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.02,
+    "rounds": 5,
+    "seed": 20262106,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 36,
+      "shots": 3000,
+      "logical_error_rate": 0.012,
+      "ci95": [
+        0.008680538643521852,
+        0.01656761771239629
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 132,
+      "shots": 3000,
+      "logical_error_rate": 0.044,
+      "ci95": [
+        0.037225603621850144,
+        0.05194070641564714
+      ]
+    },
+    "final_majority": {
+      "failures": 74,
+      "shots": 3000,
+      "logical_error_rate": 0.024666666666666667,
+      "ci95": [
+        0.01969455109224335,
+        0.030854541095966533
+      ]
+    }
+  },
+  {
+    "distance": 3,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.05,
+    "rounds": 5,
+    "seed": 20262107,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 53,
+      "shots": 3000,
+      "logical_error_rate": 0.017666666666666667,
+      "ci95": [
+        0.013532252704955044,
+        0.023034743365409404
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 197,
+      "shots": 3000,
+      "logical_error_rate": 0.06566666666666666,
+      "ci95": [
+        0.05734677014110726,
+        0.07509745645162587
+      ]
+    },
+    "final_majority": {
+      "failures": 80,
+      "shots": 3000,
+      "logical_error_rate": 0.02666666666666667,
+      "ci95": [
+        0.02147891981997193,
+        0.03306505697333666
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.0,
+    "rounds": 3,
+    "seed": 20262108,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 0,
+      "shots": 3000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0012788487253259629
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 2,
+      "shots": 3000,
+      "logical_error_rate": 0.0006666666666666666,
+      "ci95": [
+        0.00018284308780954395,
+        0.0024276338392159843
+      ]
+    },
+    "final_majority": {
+      "failures": 2,
+      "shots": 3000,
+      "logical_error_rate": 0.0006666666666666666,
+      "ci95": [
+        0.00018284308780954395,
+        0.0024276338392159843
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.02,
+    "rounds": 3,
+    "seed": 20262109,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 1,
+      "shots": 3000,
+      "logical_error_rate": 0.0003333333333333333,
+      "ci95": [
+        5.8843941871566355e-05,
+        0.0018858188843041794
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 100,
+      "shots": 3000,
+      "logical_error_rate": 0.03333333333333333,
+      "ci95": [
+        0.027483152333113072,
+        0.04037710647719116
+      ]
+    },
+    "final_majority": {
+      "failures": 2,
+      "shots": 3000,
+      "logical_error_rate": 0.0006666666666666666,
+      "ci95": [
+        0.00018284308780954395,
+        0.0024276338392159843
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.05,
+    "rounds": 3,
+    "seed": 20262110,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 1,
+      "shots": 3000,
+      "logical_error_rate": 0.0003333333333333333,
+      "ci95": [
+        5.8843941871566355e-05,
+        0.0018858188843041794
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 253,
+      "shots": 3000,
+      "logical_error_rate": 0.08433333333333333,
+      "ci95": [
+        0.0749131829751923,
+        0.09481663326512867
+      ]
+    },
+    "final_majority": {
+      "failures": 4,
+      "shots": 3000,
+      "logical_error_rate": 0.0013333333333333333,
+      "ci95": [
+        0.0005186256496617009,
+        0.0034234794790633924
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.0,
+    "rounds": 5,
+    "seed": 20262111,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 0,
+      "shots": 3000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0012788487253259629
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 16,
+      "shots": 3000,
+      "logical_error_rate": 0.005333333333333333,
+      "ci95": [
+        0.0032855756253714974,
+        0.00864629871355099
+      ]
+    },
+    "final_majority": {
+      "failures": 16,
+      "shots": 3000,
+      "logical_error_rate": 0.005333333333333333,
+      "ci95": [
+        0.0032855756253714974,
+        0.00864629871355099
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.02,
+    "rounds": 5,
+    "seed": 20262112,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 6,
+      "shots": 3000,
+      "logical_error_rate": 0.002,
+      "ci95": [
+        0.000916930269583324,
+        0.004356803060841335
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 145,
+      "shots": 3000,
+      "logical_error_rate": 0.04833333333333333,
+      "ci95": [
+        0.041219579683999655,
+        0.056602313664544796
+      ]
+    },
+    "final_majority": {
+      "failures": 24,
+      "shots": 3000,
+      "logical_error_rate": 0.008,
+      "ci95": [
+        0.005381913474637302,
+        0.011876473671083446
+      ]
+    }
+  },
+  {
+    "distance": 5,
+    "physical_error_rate_per_round": 0.02,
+    "measurement_error_rate": 0.05,
+    "rounds": 5,
+    "seed": 20262113,
+    "final_readout": "perfect",
+    "viterbi": {
+      "failures": 7,
+      "shots": 3000,
+      "logical_error_rate": 0.0023333333333333335,
+      "ci95": [
+        0.0011307320906370835,
+        0.004808815340637359
+      ]
+    },
+    "last_noisy_syndrome": {
+      "failures": 309,
+      "shots": 3000,
+      "logical_error_rate": 0.103,
+      "ci95": [
+        0.09262598088993688,
+        0.1143894249979719
+      ]
+    },
+    "final_majority": {
+      "failures": 16,
+      "shots": 3000,
+      "logical_error_rate": 0.005333333333333333,
+      "ci95": [
+        0.0032855756253714974,
+        0.00864629871355099
+      ]
+    }
+  }
+]

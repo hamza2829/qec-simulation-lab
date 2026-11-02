@@ -1,0 +1,1190 @@
+[
+  {
+    "distance": 3,
+    "physical_error_rate": 0.01,
+    "seed": 20261102,
+    "majority": {
+      "failures": 31,
+      "shots": 100000,
+      "logical_error_rate": 0.00031,
+      "ci95": [
+        0.00021841194235080693,
+        0.0004399773541024312
+      ]
+    },
+    "lookup": {
+      "failures": 31,
+      "shots": 100000,
+      "logical_error_rate": 0.00031,
+      "ci95": [
+        0.00021841194235080693,
+        0.0004399773541024312
+      ]
+    },
+    "unencoded": {
+      "failures": 984,
+      "shots": 100000,
+      "logical_error_rate": 0.00984,
+      "ci95": [
+        0.009246766343839708,
+        0.010470890798687698
+      ]
+    },
+    "exact_logical_error_rate": 0.00029800000000000003
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.03,
+    "seed": 20261103,
+    "majority": {
+      "failures": 286,
+      "shots": 100000,
+      "logical_error_rate": 0.00286,
+      "ci95": [
+        0.002547566934671842,
+        0.0032106264549072233
+      ]
+    },
+    "lookup": {
+      "failures": 286,
+      "shots": 100000,
+      "logical_error_rate": 0.00286,
+      "ci95": [
+        0.002547566934671842,
+        0.0032106264549072233
+      ]
+    },
+    "unencoded": {
+      "failures": 2960,
+      "shots": 100000,
+      "logical_error_rate": 0.0296,
+      "ci95": [
+        0.02856749891768821,
+        0.03066864013862992
+      ]
+    },
+    "exact_logical_error_rate": 0.0026460000000000003
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.05,
+    "seed": 20261104,
+    "majority": {
+      "failures": 719,
+      "shots": 100000,
+      "logical_error_rate": 0.00719,
+      "ci95": [
+        0.006684942932842129,
+        0.0077329177991819695
+      ]
+    },
+    "lookup": {
+      "failures": 719,
+      "shots": 100000,
+      "logical_error_rate": 0.00719,
+      "ci95": [
+        0.006684942932842129,
+        0.0077329177991819695
+      ]
+    },
+    "unencoded": {
+      "failures": 4885,
+      "shots": 100000,
+      "logical_error_rate": 0.04885,
+      "ci95": [
+        0.04753124818964549,
+        0.05020341196183818
+      ]
+    },
+    "exact_logical_error_rate": 0.007250000000000001
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.1,
+    "seed": 20261105,
+    "majority": {
+      "failures": 2883,
+      "shots": 100000,
+      "logical_error_rate": 0.02883,
+      "ci95": [
+        0.02781086729567286,
+        0.029885330916838652
+      ]
+    },
+    "lookup": {
+      "failures": 2883,
+      "shots": 100000,
+      "logical_error_rate": 0.02883,
+      "ci95": [
+        0.02781086729567286,
+        0.029885330916838652
+      ]
+    },
+    "unencoded": {
+      "failures": 10112,
+      "shots": 100000,
+      "logical_error_rate": 0.10112,
+      "ci95": [
+        0.09926669040563277,
+        0.10300395403906148
+      ]
+    },
+    "exact_logical_error_rate": 0.028000000000000008
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.15,
+    "seed": 20261106,
+    "majority": {
+      "failures": 6040,
+      "shots": 100000,
+      "logical_error_rate": 0.0604,
+      "ci95": [
+        0.05894030251914833,
+        0.0618934702894347
+      ]
+    },
+    "lookup": {
+      "failures": 6040,
+      "shots": 100000,
+      "logical_error_rate": 0.0604,
+      "ci95": [
+        0.05894030251914833,
+        0.0618934702894347
+      ]
+    },
+    "unencoded": {
+      "failures": 14987,
+      "shots": 100000,
+      "logical_error_rate": 0.14987,
+      "ci95": [
+        0.14767113032423201,
+        0.1520957688419854
+      ]
+    },
+    "exact_logical_error_rate": 0.06075
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.2,
+    "seed": 20261107,
+    "majority": {
+      "failures": 10375,
+      "shots": 100000,
+      "logical_error_rate": 0.10375,
+      "ci95": [
+        0.10187521829358007,
+        0.10565522409814199
+      ]
+    },
+    "lookup": {
+      "failures": 10375,
+      "shots": 100000,
+      "logical_error_rate": 0.10375,
+      "ci95": [
+        0.10187521829358007,
+        0.10565522409814199
+      ]
+    },
+    "unencoded": {
+      "failures": 20016,
+      "shots": 100000,
+      "logical_error_rate": 0.20016,
+      "ci95": [
+        0.19769161509842648,
+        0.20265142047692736
+      ]
+    },
+    "exact_logical_error_rate": 0.10400000000000004
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.3,
+    "seed": 20261108,
+    "majority": {
+      "failures": 21641,
+      "shots": 100000,
+      "logical_error_rate": 0.21641,
+      "ci95": [
+        0.21386862242998056,
+        0.2189731647192143
+      ]
+    },
+    "lookup": {
+      "failures": 21641,
+      "shots": 100000,
+      "logical_error_rate": 0.21641,
+      "ci95": [
+        0.21386862242998056,
+        0.2189731647192143
+      ]
+    },
+    "unencoded": {
+      "failures": 29793,
+      "shots": 100000,
+      "logical_error_rate": 0.29793,
+      "ci95": [
+        0.2951031822323378,
+        0.30077234204298153
+      ]
+    },
+    "exact_logical_error_rate": 0.216
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.4,
+    "seed": 20261109,
+    "majority": {
+      "failures": 35042,
+      "shots": 100000,
+      "logical_error_rate": 0.35042,
+      "ci95": [
+        0.3474687457651768,
+        0.35338274590158364
+      ]
+    },
+    "lookup": {
+      "failures": 35042,
+      "shots": 100000,
+      "logical_error_rate": 0.35042,
+      "ci95": [
+        0.3474687457651768,
+        0.35338274590158364
+      ]
+    },
+    "unencoded": {
+      "failures": 40024,
+      "shots": 100000,
+      "logical_error_rate": 0.40024,
+      "ci95": [
+        0.3972072215932709,
+        0.4032804425909518
+      ]
+    },
+    "exact_logical_error_rate": 0.35200000000000004
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.5,
+    "seed": 20261110,
+    "majority": {
+      "failures": 50016,
+      "shots": 100000,
+      "logical_error_rate": 0.50016,
+      "ci95": [
+        0.49706107837225016,
+        0.5032589093355541
+      ]
+    },
+    "lookup": {
+      "failures": 50016,
+      "shots": 100000,
+      "logical_error_rate": 0.50016,
+      "ci95": [
+        0.49706107837225016,
+        0.5032589093355541
+      ]
+    },
+    "unencoded": {
+      "failures": 49821,
+      "shots": 100000,
+      "logical_error_rate": 0.49821,
+      "ci95": [
+        0.49511117297693324,
+        0.5013089645420099
+      ]
+    },
+    "exact_logical_error_rate": 0.5
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.01,
+    "seed": 20261111,
+    "majority": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "lookup": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "unencoded": {
+      "failures": 989,
+      "shots": 100000,
+      "logical_error_rate": 0.00989,
+      "ci95": [
+        0.009295228362629613,
+        0.010522424938586534
+      ]
+    },
+    "exact_logical_error_rate": 9.850600000000002e-06
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.03,
+    "seed": 20261112,
+    "majority": {
+      "failures": 18,
+      "shots": 100000,
+      "logical_error_rate": 0.00018,
+      "ci95": [
+        0.00011386651864148043,
+        0.00028453276522102933
+      ]
+    },
+    "lookup": {
+      "failures": 18,
+      "shots": 100000,
+      "logical_error_rate": 0.00018,
+      "ci95": [
+        0.00011386651864148043,
+        0.00028453276522102933
+      ]
+    },
+    "unencoded": {
+      "failures": 3012,
+      "shots": 100000,
+      "logical_error_rate": 0.03012,
+      "ci95": [
+        0.029078578077323922,
+        0.031197521029357123
+      ]
+    },
+    "exact_logical_error_rate": 0.00025799579999999996
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.05,
+    "seed": 20261113,
+    "majority": {
+      "failures": 109,
+      "shots": 100000,
+      "logical_error_rate": 0.00109,
+      "ci95": [
+        0.0009037579205652236,
+        0.001314571451432385
+      ]
+    },
+    "lookup": {
+      "failures": 109,
+      "shots": 100000,
+      "logical_error_rate": 0.00109,
+      "ci95": [
+        0.0009037579205652236,
+        0.001314571451432385
+      ]
+    },
+    "unencoded": {
+      "failures": 4967,
+      "shots": 100000,
+      "logical_error_rate": 0.04967,
+      "ci95": [
+        0.04834063261587106,
+        0.05103396453810799
+      ]
+    },
+    "exact_logical_error_rate": 0.0011581250000000003
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.1,
+    "seed": 20261114,
+    "majority": {
+      "failures": 880,
+      "shots": 100000,
+      "logical_error_rate": 0.0088,
+      "ci95": [
+        0.00823971681333765,
+        0.00939802022846393
+      ]
+    },
+    "lookup": {
+      "failures": 880,
+      "shots": 100000,
+      "logical_error_rate": 0.0088,
+      "ci95": [
+        0.00823971681333765,
+        0.00939802022846393
+      ]
+    },
+    "unencoded": {
+      "failures": 10021,
+      "shots": 100000,
+      "logical_error_rate": 0.10021,
+      "ci95": [
+        0.09836421030489909,
+        0.10208650405166006
+      ]
+    },
+    "exact_logical_error_rate": 0.008560000000000002
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.15,
+    "seed": 20261115,
+    "majority": {
+      "failures": 2637,
+      "shots": 100000,
+      "logical_error_rate": 0.02637,
+      "ci95": [
+        0.025394929692547284,
+        0.02738145751247813
+      ]
+    },
+    "lookup": {
+      "failures": 2637,
+      "shots": 100000,
+      "logical_error_rate": 0.02637,
+      "ci95": [
+        0.025394929692547284,
+        0.02738145751247813
+      ]
+    },
+    "unencoded": {
+      "failures": 14922,
+      "shots": 100000,
+      "logical_error_rate": 0.14922,
+      "ci95": [
+        0.14702511396335122,
+        0.1514418351399125
+      ]
+    },
+    "exact_logical_error_rate": 0.026611874999999993
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.2,
+    "seed": 20261116,
+    "majority": {
+      "failures": 5709,
+      "shots": 100000,
+      "logical_error_rate": 0.05709,
+      "ci95": [
+        0.05566892613229179,
+        0.05854510097109653
+      ]
+    },
+    "lookup": {
+      "failures": 5709,
+      "shots": 100000,
+      "logical_error_rate": 0.05709,
+      "ci95": [
+        0.05566892613229179,
+        0.05854510097109653
+      ]
+    },
+    "unencoded": {
+      "failures": 20095,
+      "shots": 100000,
+      "logical_error_rate": 0.20095,
+      "ci95": [
+        0.19847792331270508,
+        0.2034450515699308
+      ]
+    },
+    "exact_logical_error_rate": 0.05792000000000003
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.3,
+    "seed": 20261117,
+    "majority": {
+      "failures": 16238,
+      "shots": 100000,
+      "logical_error_rate": 0.16238,
+      "ci95": [
+        0.1601071779857395,
+        0.16467876008440105
+      ]
+    },
+    "lookup": {
+      "failures": 16238,
+      "shots": 100000,
+      "logical_error_rate": 0.16238,
+      "ci95": [
+        0.1601071779857395,
+        0.16467876008440105
+      ]
+    },
+    "unencoded": {
+      "failures": 30191,
+      "shots": 100000,
+      "logical_error_rate": 0.30191,
+      "ci95": [
+        0.29907225883106064,
+        0.30476295967588257
+      ]
+    },
+    "exact_logical_error_rate": 0.16307999999999995
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.4,
+    "seed": 20261118,
+    "majority": {
+      "failures": 31705,
+      "shots": 100000,
+      "logical_error_rate": 0.31705,
+      "ci95": [
+        0.31417300034366313,
+        0.3199410550142311
+      ]
+    },
+    "lookup": {
+      "failures": 31705,
+      "shots": 100000,
+      "logical_error_rate": 0.31705,
+      "ci95": [
+        0.31417300034366313,
+        0.3199410550142311
+      ]
+    },
+    "unencoded": {
+      "failures": 39734,
+      "shots": 100000,
+      "logical_error_rate": 0.39734,
+      "ci95": [
+        0.394311048009029,
+        0.4003768389712467
+      ]
+    },
+    "exact_logical_error_rate": 0.3174400000000001
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.5,
+    "seed": 20261119,
+    "majority": {
+      "failures": 49943,
+      "shots": 100000,
+      "logical_error_rate": 0.49943,
+      "ci95": [
+        0.4963311082687626,
+        0.5025289355221858
+      ]
+    },
+    "lookup": {
+      "failures": 49943,
+      "shots": 100000,
+      "logical_error_rate": 0.49943,
+      "ci95": [
+        0.4963311082687626,
+        0.5025289355221858
+      ]
+    },
+    "unencoded": {
+      "failures": 49862,
+      "shots": 100000,
+      "logical_error_rate": 0.49862,
+      "ci95": [
+        0.49552114917250406,
+        0.5017189568476867
+      ]
+    },
+    "exact_logical_error_rate": 0.5
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.01,
+    "seed": 20261120,
+    "majority": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "lookup": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "unencoded": {
+      "failures": 960,
+      "shots": 100000,
+      "logical_error_rate": 0.0096,
+      "ci95": [
+        0.009014205182384091,
+        0.010223470398437354
+      ]
+    },
+    "exact_logical_error_rate": 3.416698e-07
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.03,
+    "seed": 20261121,
+    "majority": {
+      "failures": 4,
+      "shots": 100000,
+      "logical_error_rate": 4e-05,
+      "ci95": [
+        1.5555325305394583e-05,
+        0.0001028547142286384
+      ]
+    },
+    "lookup": {
+      "failures": 4,
+      "shots": 100000,
+      "logical_error_rate": 4e-05,
+      "ci95": [
+        1.5555325305394583e-05,
+        0.0001028547142286384
+      ]
+    },
+    "unencoded": {
+      "failures": 3065,
+      "shots": 100000,
+      "logical_error_rate": 0.03065,
+      "ci95": [
+        0.029599571984080114,
+        0.03173648640470159
+      ]
+    },
+    "exact_logical_error_rate": 2.635939259999999e-05
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.05,
+    "seed": 20261122,
+    "majority": {
+      "failures": 25,
+      "shots": 100000,
+      "logical_error_rate": 0.00025,
+      "ci95": [
+        0.00016935006857915068,
+        0.0003690438374475975
+      ]
+    },
+    "lookup": {
+      "failures": 25,
+      "shots": 100000,
+      "logical_error_rate": 0.00025,
+      "ci95": [
+        0.00016935006857915068,
+        0.0003690438374475975
+      ]
+    },
+    "unencoded": {
+      "failures": 5015,
+      "shots": 100000,
+      "logical_error_rate": 0.05015,
+      "ci95": [
+        0.048814465902818516,
+        0.05152009437457246
+      ]
+    },
+    "exact_logical_error_rate": 0.000193578125
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.1,
+    "seed": 20261123,
+    "majority": {
+      "failures": 280,
+      "shots": 100000,
+      "logical_error_rate": 0.0028,
+      "ci95": [
+        0.0024910436258744153,
+        0.0031471543732781598
+      ]
+    },
+    "lookup": {
+      "failures": 280,
+      "shots": 100000,
+      "logical_error_rate": 0.0028,
+      "ci95": [
+        0.0024910436258744153,
+        0.0031471543732781598
+      ]
+    },
+    "unencoded": {
+      "failures": 10070,
+      "shots": 100000,
+      "logical_error_rate": 0.1007,
+      "ci95": [
+        0.09885015527683638,
+        0.10258052143487245
+      ]
+    },
+    "exact_logical_error_rate": 0.002728000000000001
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.15,
+    "seed": 20261124,
+    "majority": {
+      "failures": 1183,
+      "shots": 100000,
+      "logical_error_rate": 0.01183,
+      "ci95": [
+        0.011178376942163028,
+        0.012519127316176298
+      ]
+    },
+    "lookup": {
+      "failures": 1183,
+      "shots": 100000,
+      "logical_error_rate": 0.01183,
+      "ci95": [
+        0.011178376942163028,
+        0.012519127316176298
+      ]
+    },
+    "unencoded": {
+      "failures": 14994,
+      "shots": 100000,
+      "logical_error_rate": 0.14994,
+      "ci95": [
+        0.14774070217681257,
+        0.15216619161156902
+      ]
+    },
+    "exact_logical_error_rate": 0.012103171874999997
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.2,
+    "seed": 20261125,
+    "majority": {
+      "failures": 3256,
+      "shots": 100000,
+      "logical_error_rate": 0.03256,
+      "ci95": [
+        0.03147780603655544,
+        0.03367810561413619
+      ]
+    },
+    "lookup": {
+      "failures": 3256,
+      "shots": 100000,
+      "logical_error_rate": 0.03256,
+      "ci95": [
+        0.03147780603655544,
+        0.03367810561413619
+      ]
+    },
+    "unencoded": {
+      "failures": 19908,
+      "shots": 100000,
+      "logical_error_rate": 0.19908,
+      "ci95": [
+        0.196616686533859,
+        0.20156643201381802
+      ]
+    },
+    "exact_logical_error_rate": 0.03334400000000001
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.3,
+    "seed": 20261126,
+    "majority": {
+      "failures": 12784,
+      "shots": 100000,
+      "logical_error_rate": 0.12784,
+      "ci95": [
+        0.12578471889514678,
+        0.12992387275281106
+      ]
+    },
+    "lookup": {
+      "failures": 12784,
+      "shots": 100000,
+      "logical_error_rate": 0.12784,
+      "ci95": [
+        0.12578471889514678,
+        0.12992387275281106
+      ]
+    },
+    "unencoded": {
+      "failures": 30128,
+      "shots": 100000,
+      "logical_error_rate": 0.30128,
+      "ci95": [
+        0.298443970940414,
+        0.3041312959670511
+      ]
+    },
+    "exact_logical_error_rate": 0.12603599999999995
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.4,
+    "seed": 20261127,
+    "majority": {
+      "failures": 28784,
+      "shots": 100000,
+      "logical_error_rate": 0.28784,
+      "ci95": [
+        0.2850420316416848,
+        0.29065426781024645
+      ]
+    },
+    "lookup": {
+      "failures": 28784,
+      "shots": 100000,
+      "logical_error_rate": 0.28784,
+      "ci95": [
+        0.2850420316416848,
+        0.29065426781024645
+      ]
+    },
+    "unencoded": {
+      "failures": 40159,
+      "shots": 100000,
+      "logical_error_rate": 0.40159,
+      "ci95": [
+        0.39855547814809317,
+        0.4046320823207255
+      ]
+    },
+    "exact_logical_error_rate": 0.28979200000000005
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.5,
+    "seed": 20261128,
+    "majority": {
+      "failures": 50059,
+      "shots": 100000,
+      "logical_error_rate": 0.50059,
+      "ci95": [
+        0.4974910638533362,
+        0.5036888908191909
+      ]
+    },
+    "lookup": {
+      "failures": 50059,
+      "shots": 100000,
+      "logical_error_rate": 0.50059,
+      "ci95": [
+        0.4974910638533362,
+        0.5036888908191909
+      ]
+    },
+    "unencoded": {
+      "failures": 50122,
+      "shots": 100000,
+      "logical_error_rate": 0.50122,
+      "ci95": [
+        0.4981210467202038,
+        0.5043188595518016
+      ]
+    },
+    "exact_logical_error_rate": 0.5
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.01,
+    "seed": 20261129,
+    "majority": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "lookup": {
+      "failures": 0,
+      "shots": 100000,
+      "logical_error_rate": 0.0,
+      "ci95": [
+        0.0,
+        3.841311258303963e-05
+      ]
+    },
+    "unencoded": {
+      "failures": 994,
+      "shots": 100000,
+      "logical_error_rate": 0.00994,
+      "ci95": [
+        0.009343694373261454,
+        0.010573955086643437
+      ]
+    },
+    "exact_logical_error_rate": 1.2185368570000003e-08
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.03,
+    "seed": 20261130,
+    "majority": {
+      "failures": 2,
+      "shots": 100000,
+      "logical_error_rate": 2e-05,
+      "ci95": [
+        5.484738516524055e-06,
+        7.292683754201227e-05
+      ]
+    },
+    "lookup": {
+      "failures": 2,
+      "shots": 100000,
+      "logical_error_rate": 2e-05,
+      "ci95": [
+        5.484738516524055e-06,
+        7.292683754201227e-05
+      ]
+    },
+    "unencoded": {
+      "failures": 2940,
+      "shots": 100000,
+      "logical_error_rate": 0.0294,
+      "ci95": [
+        0.028370952797209473,
+        0.030465201624353688
+      ]
+    },
+    "exact_logical_error_rate": 2.7672245063099994e-06
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.05,
+    "seed": 20261131,
+    "majority": {
+      "failures": 1,
+      "shots": 100000,
+      "logical_error_rate": 1e-05,
+      "ci95": [
+        1.7652477303783126e-06,
+        5.664709659040966e-05
+      ]
+    },
+    "lookup": {
+      "failures": 1,
+      "shots": 100000,
+      "logical_error_rate": 1e-05,
+      "ci95": [
+        1.7652477303783126e-06,
+        5.664709659040966e-05
+      ]
+    },
+    "unencoded": {
+      "failures": 5025,
+      "shots": 100000,
+      "logical_error_rate": 0.05025,
+      "ci95": [
+        0.04891318550734933,
+        0.05162136708741913
+      ]
+    },
+    "exact_logical_error_rate": 3.322220703125001e-05
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.1,
+    "seed": 20261132,
+    "majority": {
+      "failures": 89,
+      "shots": 100000,
+      "logical_error_rate": 0.00089,
+      "ci95": [
+        0.000723363803450121,
+        0.001094980933792521
+      ]
+    },
+    "lookup": {
+      "failures": 89,
+      "shots": 100000,
+      "logical_error_rate": 0.00089,
+      "ci95": [
+        0.000723363803450121,
+        0.001094980933792521
+      ]
+    },
+    "unencoded": {
+      "failures": 9923,
+      "shots": 100000,
+      "logical_error_rate": 0.09923,
+      "ci95": [
+        0.09739236166623089,
+        0.10109842798002894
+      ]
+    },
+    "exact_logical_error_rate": 0.0008909200000000002
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.15,
+    "seed": 20261133,
+    "majority": {
+      "failures": 582,
+      "shots": 100000,
+      "logical_error_rate": 0.00582,
+      "ci95": [
+        0.005367153017405993,
+        0.006310812966546581
+      ]
+    },
+    "lookup": {
+      "failures": 582,
+      "shots": 100000,
+      "logical_error_rate": 0.00582,
+      "ci95": [
+        0.005367153017405993,
+        0.006310812966546581
+      ]
+    },
+    "unencoded": {
+      "failures": 15118,
+      "shots": 100000,
+      "logical_error_rate": 0.15118,
+      "ci95": [
+        0.148973145416279,
+        0.15341365310758345
+      ]
+    },
+    "exact_logical_error_rate": 0.005628663105468748
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.2,
+    "seed": 20261134,
+    "majority": {
+      "failures": 1888,
+      "shots": 100000,
+      "logical_error_rate": 0.01888,
+      "ci95": [
+        0.018054746404779203,
+        0.01974221622867271
+      ]
+    },
+    "lookup": {
+      "failures": 1888,
+      "shots": 100000,
+      "logical_error_rate": 0.01888,
+      "ci95": [
+        0.018054746404779203,
+        0.01974221622867271
+      ]
+    },
+    "unencoded": {
+      "failures": 20157,
+      "shots": 100000,
+      "logical_error_rate": 0.20157,
+      "ci95": [
+        0.19909503649061117,
+        0.20406789075976517
+      ]
+    },
+    "exact_logical_error_rate": 0.01958144000000001
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.3,
+    "seed": 20261135,
+    "majority": {
+      "failures": 9858,
+      "shots": 100000,
+      "logical_error_rate": 0.09858,
+      "ci95": [
+        0.09674779884829007,
+        0.10044304073501611
+      ]
+    },
+    "lookup": {
+      "failures": 9858,
+      "shots": 100000,
+      "logical_error_rate": 0.09858,
+      "ci95": [
+        0.09674779884829007,
+        0.10044304073501611
+      ]
+    },
+    "unencoded": {
+      "failures": 29908,
+      "shots": 100000,
+      "logical_error_rate": 0.29908,
+      "ci95": [
+        0.29624999974698946,
+        0.30192543617817097
+      ]
+    },
+    "exact_logical_error_rate": 0.09880865999999998
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.4,
+    "seed": 20261136,
+    "majority": {
+      "failures": 26844,
+      "shots": 100000,
+      "logical_error_rate": 0.26844,
+      "ci95": [
+        0.265702325283789,
+        0.2711954645969106
+      ]
+    },
+    "lookup": {
+      "failures": 26844,
+      "shots": 100000,
+      "logical_error_rate": 0.26844,
+      "ci95": [
+        0.265702325283789,
+        0.2711954645969106
+      ]
+    },
+    "unencoded": {
+      "failures": 40196,
+      "shots": 100000,
+      "logical_error_rate": 0.40196,
+      "ci95": [
+        0.3989250045016014,
+        0.405002527541514
+      ]
+    },
+    "exact_logical_error_rate": 0.26656768000000003
+  },
+  {
+    "distance": 9,
+    "physical_error_rate": 0.5,
+    "seed": 20261137,
+    "majority": {
+      "failures": 50019,
+      "shots": 100000,
+      "logical_error_rate": 0.50019,
+      "ci95": [
+        0.49709107728493146,
+        0.5032889081180858
+      ]
+    },
+    "lookup": {
+      "failures": 50019,
+      "shots": 100000,
+      "logical_error_rate": 0.50019,
+      "ci95": [
+        0.49709107728493146,
+        0.5032889081180858
+      ]
+    },
+    "unencoded": {
+      "failures": 50190,
+      "shots": 100000,
+      "logical_error_rate": 0.5019,
+      "ci95": [
+        0.49880103374816803,
+        0.5049988202820043
+      ]
+    },
+    "exact_logical_error_rate": 0.5
+  }
+]

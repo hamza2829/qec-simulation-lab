@@ -1,0 +1,80 @@
+[
+  {
+    "distance": 3,
+    "physical_error_rate": 0.002,
+    "rounds": 3,
+    "seed": 20265105,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.17076699998870026,
+    "failures": 1517,
+    "shots": 500000,
+    "logical_error_rate": 0.003034,
+    "ci95": [
+      0.002885326647092685,
+      0.003190309591935859
+    ],
+    "per_round_small_error_proxy": 0.0010113333333333333
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.002,
+    "rounds": 5,
+    "seed": 20265107,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.3741669000010006,
+    "failures": 547,
+    "shots": 500000,
+    "logical_error_rate": 0.001094,
+    "ci95": [
+      0.00100612400465124,
+      0.0011895420438687294
+    ],
+    "per_round_small_error_proxy": 0.00021879999999999998
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.002,
+    "rounds": 7,
+    "seed": 20265109,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 4.257827899986296,
+    "failures": 153,
+    "shots": 500000,
+    "logical_error_rate": 0.000306,
+    "ci95": [
+      0.00026120808138025976,
+      0.0003584700753248864
+    ],
+    "per_round_small_error_proxy": 4.3714285714285715e-05
+  }
+]

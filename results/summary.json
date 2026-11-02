@@ -1,0 +1,510 @@
+{
+  "profile": "full",
+  "thresholds": {
+    "3-5": {
+      "estimate": 0.005980830670926519,
+      "all_roots": [
+        0.005980830670926519
+      ],
+      "conditional_ci95": [
+        0.0056590494046256015,
+        0.006336772208883554
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    },
+    "5-7": {
+      "estimate": 0.007217675941080196,
+      "all_roots": [
+        0.007217675941080196
+      ],
+      "conditional_ci95": [
+        0.006920752675979681,
+        0.007413199220686762
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    },
+    "3-7": {
+      "estimate": 0.0066763636363636365,
+      "all_roots": [
+        0.0066763636363636365
+      ],
+      "conditional_ci95": [
+        0.006505000277992369,
+        0.00693568065218919
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    }
+  },
+  "suppression_factor": 4.727830686930411,
+  "suppression_ci95": [
+    4.42986981847925,
+    5.052459558231735
+  ],
+  "resources": [
+    {
+      "physical_error_rate": 0.001,
+      "target_per_d_round_memory_block": 1e-06,
+      "distance": 11,
+      "physical_qubits": 241,
+      "rounds": 11,
+      "qubit_rounds": 2651,
+      "predicted_block_error": 3.4925317839726525e-07,
+      "distance_bootstrap_ci95": [
+        11,
+        11
+      ],
+      "bootstrap_unresolved_fraction": 0.0,
+      "beyond_fitted_distances": true,
+      "simplified_estimate": true
+    },
+    {
+      "physical_error_rate": 0.001,
+      "target_per_d_round_memory_block": 1e-09,
+      "distance": 17,
+      "physical_qubits": 577,
+      "rounds": 17,
+      "qubit_rounds": 9809,
+      "predicted_block_error": 6.384411493468202e-10,
+      "distance_bootstrap_ci95": [
+        17,
+        17
+      ],
+      "bootstrap_unresolved_fraction": 0.0,
+      "beyond_fitted_distances": true,
+      "simplified_estimate": true
+    },
+    {
+      "physical_error_rate": 0.0001,
+      "target_per_d_round_memory_block": 1e-06,
+      "distance": 5,
+      "physical_qubits": 49,
+      "rounds": 5,
+      "qubit_rounds": 245,
+      "predicted_block_error": 1.34212639922271e-07,
+      "distance_bootstrap_ci95": [
+        5,
+        5
+      ],
+      "bootstrap_unresolved_fraction": 0.0,
+      "beyond_fitted_distances": false,
+      "simplified_estimate": true
+    },
+    {
+      "physical_error_rate": 0.0001,
+      "target_per_d_round_memory_block": 1e-09,
+      "distance": 9,
+      "physical_qubits": 161,
+      "rounds": 9,
+      "qubit_rounds": 1449,
+      "predicted_block_error": 2.7019798270929365e-11,
+      "distance_bootstrap_ci95": [
+        9,
+        9
+      ],
+      "bootstrap_unresolved_fraction": 0.0,
+      "beyond_fitted_distances": true,
+      "simplified_estimate": true
+    }
+  ],
+  "ml_comparison": [
+    {
+      "code": "repetition",
+      "evaluation": [
+        {
+          "physical_error_rate": 0.01,
+          "test_seed": 20267112,
+          "actual_observable_flip_fraction": 0.010425,
+          "ml": {
+            "failures": 16,
+            "shots": 40000,
+            "logical_error_rate": 0.0004,
+            "ci95": [
+              0.0002462398517713924,
+              0.0006497105748292315
+            ]
+          },
+          "pymatching": {
+            "failures": 16,
+            "shots": 40000,
+            "logical_error_rate": 0.0004,
+            "ci95": [
+              0.0002462398517713924,
+              0.0006497105748292315
+            ]
+          },
+          "lookup": {
+            "failures": 16,
+            "shots": 40000,
+            "logical_error_rate": 0.0004,
+            "ci95": [
+              0.0002462398517713924,
+              0.0006497105748292315
+            ]
+          },
+          "lookup_unseen_fraction": 0.0,
+          "ml_vs_pymatching": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        },
+        {
+          "physical_error_rate": 0.05,
+          "test_seed": 20267113,
+          "actual_observable_flip_fraction": 0.049125,
+          "ml": {
+            "failures": 272,
+            "shots": 40000,
+            "logical_error_rate": 0.0068,
+            "ci95": [
+              0.006040646303307447,
+              0.0076540749745136645
+            ]
+          },
+          "pymatching": {
+            "failures": 272,
+            "shots": 40000,
+            "logical_error_rate": 0.0068,
+            "ci95": [
+              0.006040646303307447,
+              0.0076540749745136645
+            ]
+          },
+          "lookup": {
+            "failures": 272,
+            "shots": 40000,
+            "logical_error_rate": 0.0068,
+            "ci95": [
+              0.006040646303307447,
+              0.0076540749745136645
+            ]
+          },
+          "lookup_unseen_fraction": 0.0,
+          "ml_vs_pymatching": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        },
+        {
+          "physical_error_rate": 0.1,
+          "test_seed": 20267114,
+          "actual_observable_flip_fraction": 0.099725,
+          "ml": {
+            "failures": 1164,
+            "shots": 40000,
+            "logical_error_rate": 0.0291,
+            "ci95": [
+              0.027497456847588274,
+              0.03079298161495423
+            ]
+          },
+          "pymatching": {
+            "failures": 1164,
+            "shots": 40000,
+            "logical_error_rate": 0.0291,
+            "ci95": [
+              0.027497456847588274,
+              0.03079298161495423
+            ]
+          },
+          "lookup": {
+            "failures": 1164,
+            "shots": 40000,
+            "logical_error_rate": 0.0291,
+            "ci95": [
+              0.027497456847588274,
+              0.03079298161495423
+            ]
+          },
+          "lookup_unseen_fraction": 0.0,
+          "ml_vs_pymatching": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "equal observed rate",
+            "ml_minus_baseline_error_rate": 0.0,
+            "paired_approx_ci95": [
+              0.0,
+              0.0
+            ],
+            "ml_only_failures": 0,
+            "baseline_only_failures": 0,
+            "identical_error_outcomes": true,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        }
+      ]
+    },
+    {
+      "code": "surface",
+      "evaluation": [
+        {
+          "physical_error_rate": 0.003,
+          "test_seed": 20268112,
+          "actual_observable_flip_fraction": 0.065025,
+          "ml": {
+            "failures": 375,
+            "shots": 40000,
+            "logical_error_rate": 0.009375,
+            "ci95": [
+              0.008476579007456193,
+              0.010367647730035661
+            ]
+          },
+          "pymatching": {
+            "failures": 265,
+            "shots": 40000,
+            "logical_error_rate": 0.006625,
+            "ci95": [
+              0.005876004134943775,
+              0.007468750752414277
+            ]
+          },
+          "lookup": {
+            "failures": 358,
+            "shots": 40000,
+            "logical_error_rate": 0.00895,
+            "ci95": [
+              0.008073046303922731,
+              0.009921262056730263
+            ]
+          },
+          "lookup_unseen_fraction": 0.013275,
+          "ml_vs_pymatching": {
+            "observed": "worse",
+            "ml_minus_baseline_error_rate": 0.00275,
+            "paired_approx_ci95": [
+              0.001997744125816158,
+              0.0035022558741838418
+            ],
+            "ml_only_failures": 173,
+            "baseline_only_failures": 63,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": true,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "worse",
+            "ml_minus_baseline_error_rate": 0.000425,
+            "paired_approx_ci95": [
+              -0.0004583340117792403,
+              0.0013083340117792403
+            ],
+            "ml_only_failures": 171,
+            "baseline_only_failures": 154,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": false,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        },
+        {
+          "physical_error_rate": 0.01,
+          "test_seed": 20268113,
+          "actual_observable_flip_fraction": 0.186575,
+          "ml": {
+            "failures": 3194,
+            "shots": 40000,
+            "logical_error_rate": 0.07985,
+            "ci95": [
+              0.07723381960616466,
+              0.0825468720906653
+            ]
+          },
+          "pymatching": {
+            "failures": 2333,
+            "shots": 40000,
+            "logical_error_rate": 0.058325,
+            "ci95": [
+              0.056070475291662925,
+              0.060664350378210635
+            ]
+          },
+          "lookup": {
+            "failures": 3564,
+            "shots": 40000,
+            "logical_error_rate": 0.0891,
+            "ci95": [
+              0.0863474614190011,
+              0.09193145377373346
+            ]
+          },
+          "lookup_unseen_fraction": 0.171625,
+          "ml_vs_pymatching": {
+            "observed": "worse",
+            "ml_minus_baseline_error_rate": 0.021525,
+            "paired_approx_ci95": [
+              0.019309467375729427,
+              0.02374053262427057
+            ],
+            "ml_only_failures": 1462,
+            "baseline_only_failures": 601,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": true,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "better",
+            "ml_minus_baseline_error_rate": -0.00925,
+            "paired_approx_ci95": [
+              -0.011867935961393296,
+              -0.006632064038606703
+            ],
+            "ml_only_failures": 1244,
+            "baseline_only_failures": 1614,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": true,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        },
+        {
+          "physical_error_rate": 0.02,
+          "test_seed": 20268114,
+          "actual_observable_flip_fraction": 0.308025,
+          "ml": {
+            "failures": 8593,
+            "shots": 40000,
+            "logical_error_rate": 0.214825,
+            "ci95": [
+              0.21082768991078474,
+              0.2188770792303398
+            ]
+          },
+          "pymatching": {
+            "failures": 6986,
+            "shots": 40000,
+            "logical_error_rate": 0.17465,
+            "ci95": [
+              0.1709606172332738,
+              0.17840186769725966
+            ]
+          },
+          "lookup": {
+            "failures": 9590,
+            "shots": 40000,
+            "logical_error_rate": 0.23975,
+            "ci95": [
+              0.23559127203788688,
+              0.24395871014490494
+            ]
+          },
+          "lookup_unseen_fraction": 0.50505,
+          "ml_vs_pymatching": {
+            "observed": "worse",
+            "ml_minus_baseline_error_rate": 0.040175,
+            "paired_approx_ci95": [
+              0.0364092546113756,
+              0.04394074538862441
+            ],
+            "ml_only_failures": 3789,
+            "baseline_only_failures": 2182,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": true,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          },
+          "ml_vs_lookup": {
+            "observed": "better",
+            "ml_minus_baseline_error_rate": -0.024925,
+            "paired_approx_ci95": [
+              -0.02921071284420726,
+              -0.02063928715579274
+            ],
+            "ml_only_failures": 3339,
+            "baseline_only_failures": 4336,
+            "identical_error_outcomes": false,
+            "difference_supported_by_approx_ci": true,
+            "caution": "Normal paired interval; sparse discordances are inconclusive; equality is not an equivalence test"
+          }
+        }
+      ]
+    }
+  ],
+  "plots": [
+    "repetition.png",
+    "phenomenological.png",
+    "surface_code.png",
+    "scaling.png",
+    "ml_comparison.png"
+  ],
+  "elapsed_seconds": 52.52991579999798
+}

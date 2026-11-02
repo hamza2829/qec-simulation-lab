@@ -1,0 +1,73 @@
+{
+  "method": "First nontrivial pairwise linear crossing; conditional binomial-bootstrap CI",
+  "primary_pair": "5-7",
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20264102,
+  "ci_excludes": [
+    "finite-size bias",
+    "grid/interpolation bias",
+    "noise-model error"
+  ],
+  "pairs": {
+    "3-5": {
+      "estimate": 0.005980830670926519,
+      "all_roots": [
+        0.005980830670926519
+      ],
+      "conditional_ci95": [
+        0.0056590494046256015,
+        0.006336772208883554
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    },
+    "5-7": {
+      "estimate": 0.007217675941080196,
+      "all_roots": [
+        0.007217675941080196
+      ],
+      "conditional_ci95": [
+        0.006920752675979681,
+        0.007413199220686762
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    },
+    "3-7": {
+      "estimate": 0.0066763636363636365,
+      "all_roots": [
+        0.0066763636363636365
+      ],
+      "conditional_ci95": [
+        0.006505000277992369,
+        0.00693568065218919
+      ],
+      "bootstrap_crossing_fraction": 1.0,
+      "bootstrap_no_crossing_fraction": 0.0,
+      "well_identified_in_grid": true,
+      "shots_per_point": [
+        100000
+      ],
+      "sweep_interval": [
+        0.001,
+        0.015
+      ]
+    }
+  }
+}

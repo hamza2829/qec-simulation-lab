@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Bell preparation (hand-written)",
+    "T_gates": 0,
+    "Clifford_gates": 2,
+    "assumed_distance": 3,
+    "toy_sequential_qubit_rounds": 102,
+    "assumptions": "Each Clifford costs one patch for d rounds; each T consumes an arbitrary 100-qubit/10-round factory product; no parallel scheduling, fidelity or real distillation protocol",
+    "toy_only": true
+  },
+  {
+    "name": "Single T sandwich (hand-written)",
+    "T_gates": 1,
+    "Clifford_gates": 2,
+    "assumed_distance": 3,
+    "toy_sequential_qubit_rounds": 1102,
+    "assumptions": "Each Clifford costs one patch for d rounds; each T consumes an arbitrary 100-qubit/10-round factory product; no parallel scheduling, fidelity or real distillation protocol",
+    "toy_only": true
+  },
+  {
+    "name": "Small phase sequence (hand-written)",
+    "T_gates": 2,
+    "Clifford_gates": 4,
+    "assumed_distance": 3,
+    "toy_sequential_qubit_rounds": 2204,
+    "assumptions": "Each Clifford costs one patch for d rounds; each T consumes an arbitrary 100-qubit/10-round factory product; no parallel scheduling, fidelity or real distillation protocol",
+    "toy_only": true
+  }
+]

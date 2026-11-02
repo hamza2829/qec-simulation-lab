@@ -1,0 +1,66 @@
+[
+  {
+    "physical_error_rate": 0.001,
+    "target_per_d_round_memory_block": 1e-06,
+    "distance": 11,
+    "physical_qubits": 241,
+    "rounds": 11,
+    "qubit_rounds": 2651,
+    "predicted_block_error": 3.4925317839726525e-07,
+    "distance_bootstrap_ci95": [
+      11,
+      11
+    ],
+    "bootstrap_unresolved_fraction": 0.0,
+    "beyond_fitted_distances": true,
+    "simplified_estimate": true
+  },
+  {
+    "physical_error_rate": 0.001,
+    "target_per_d_round_memory_block": 1e-09,
+    "distance": 17,
+    "physical_qubits": 577,
+    "rounds": 17,
+    "qubit_rounds": 9809,
+    "predicted_block_error": 6.384411493468202e-10,
+    "distance_bootstrap_ci95": [
+      17,
+      17
+    ],
+    "bootstrap_unresolved_fraction": 0.0,
+    "beyond_fitted_distances": true,
+    "simplified_estimate": true
+  },
+  {
+    "physical_error_rate": 0.0001,
+    "target_per_d_round_memory_block": 1e-06,
+    "distance": 5,
+    "physical_qubits": 49,
+    "rounds": 5,
+    "qubit_rounds": 245,
+    "predicted_block_error": 1.34212639922271e-07,
+    "distance_bootstrap_ci95": [
+      5,
+      5
+    ],
+    "bootstrap_unresolved_fraction": 0.0,
+    "beyond_fitted_distances": false,
+    "simplified_estimate": true
+  },
+  {
+    "physical_error_rate": 0.0001,
+    "target_per_d_round_memory_block": 1e-09,
+    "distance": 9,
+    "physical_qubits": 161,
+    "rounds": 9,
+    "qubit_rounds": 1449,
+    "predicted_block_error": 2.7019798270929365e-11,
+    "distance_bootstrap_ci95": [
+      9,
+      9
+    ],
+    "bootstrap_unresolved_fraction": 0.0,
+    "beyond_fitted_distances": true,
+    "simplified_estimate": true
+  }
+]

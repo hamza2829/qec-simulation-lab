@@ -1,0 +1,938 @@
+[
+  {
+    "distance": 3,
+    "physical_error_rate": 0.001,
+    "rounds": 3,
+    "seed": 20263102,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.001,
+      "before_round_data_depolarization": 0.001,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.021043699991423637,
+    "failures": 85,
+    "shots": 100000,
+    "logical_error_rate": 0.00085,
+    "ci95": [
+      0.0006875395723221989,
+      0.0010508082379694496
+    ],
+    "per_round_small_error_proxy": 0.0002833333333333333
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.002,
+    "rounds": 3,
+    "seed": 20263103,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.03182050000759773,
+    "failures": 293,
+    "shots": 100000,
+    "logical_error_rate": 0.00293,
+    "ci95": [
+      0.002613556782603772,
+      0.003284631229139531
+    ],
+    "per_round_small_error_proxy": 0.0009766666666666667
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.003,
+    "rounds": 3,
+    "seed": 20263104,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.003,
+      "before_round_data_depolarization": 0.003,
+      "before_measure_flip_probability": 0.003,
+      "after_reset_flip_probability": 0.003
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.04229250000207685,
+    "failures": 637,
+    "shots": 100000,
+    "logical_error_rate": 0.00637,
+    "ci95": [
+      0.005895512379567215,
+      0.006882411349961518
+    ],
+    "per_round_small_error_proxy": 0.0021233333333333334
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.004,
+    "rounds": 3,
+    "seed": 20263105,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.004,
+      "before_round_data_depolarization": 0.004,
+      "before_measure_flip_probability": 0.004,
+      "after_reset_flip_probability": 0.004
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.051802200003294274,
+    "failures": 1156,
+    "shots": 100000,
+    "logical_error_rate": 0.01156,
+    "ci95": [
+      0.010915984762421307,
+      0.012241540238998816
+    ],
+    "per_round_small_error_proxy": 0.0038533333333333336
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.005,
+    "rounds": 3,
+    "seed": 20263106,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.005,
+      "before_round_data_depolarization": 0.005,
+      "before_measure_flip_probability": 0.005,
+      "after_reset_flip_probability": 0.005
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.06367979999049567,
+    "failures": 1699,
+    "shots": 100000,
+    "logical_error_rate": 0.01699,
+    "ci95": [
+      0.01620737060657345,
+      0.017809737228444027
+    ],
+    "per_round_small_error_proxy": 0.005663333333333334
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.006,
+    "rounds": 3,
+    "seed": 20263107,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.006,
+      "before_round_data_depolarization": 0.006,
+      "before_measure_flip_probability": 0.006,
+      "after_reset_flip_probability": 0.006
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.07031419999839272,
+    "failures": 2346,
+    "shots": 100000,
+    "logical_error_rate": 0.02346,
+    "ci95": [
+      0.022540027588880223,
+      0.024416583180460426
+    ],
+    "per_round_small_error_proxy": 0.00782
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.007,
+    "rounds": 3,
+    "seed": 20263108,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.007,
+      "before_round_data_depolarization": 0.007,
+      "before_measure_flip_probability": 0.007,
+      "after_reset_flip_probability": 0.007
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.07163629999558907,
+    "failures": 3124,
+    "shots": 100000,
+    "logical_error_rate": 0.03124,
+    "ci95": [
+      0.030179646168188547,
+      0.03233636689312031
+    ],
+    "per_round_small_error_proxy": 0.010413333333333333
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.008,
+    "rounds": 3,
+    "seed": 20263109,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.008,
+      "before_round_data_depolarization": 0.008,
+      "before_measure_flip_probability": 0.008,
+      "after_reset_flip_probability": 0.008
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.0779101000080118,
+    "failures": 3972,
+    "shots": 100000,
+    "logical_error_rate": 0.03972,
+    "ci95": [
+      0.03852711153952531,
+      0.040948250035394144
+    ],
+    "per_round_small_error_proxy": 0.01324
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.009,
+    "rounds": 3,
+    "seed": 20263110,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.009,
+      "before_round_data_depolarization": 0.009,
+      "before_measure_flip_probability": 0.009,
+      "after_reset_flip_probability": 0.009
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.08551340000121854,
+    "failures": 4877,
+    "shots": 100000,
+    "logical_error_rate": 0.04877,
+    "ci95": [
+      0.04745228938362286,
+      0.05012237691395884
+    ],
+    "per_round_small_error_proxy": 0.016256666666666666
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.01,
+    "rounds": 3,
+    "seed": 20263111,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.01,
+      "before_round_data_depolarization": 0.01,
+      "before_measure_flip_probability": 0.01,
+      "after_reset_flip_probability": 0.01
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.11218909999297466,
+    "failures": 5852,
+    "shots": 100000,
+    "logical_error_rate": 0.05852,
+    "ci95": [
+      0.05708207932471348,
+      0.05999183791717285
+    ],
+    "per_round_small_error_proxy": 0.01950666666666667
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.012,
+    "rounds": 3,
+    "seed": 20263112,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.012,
+      "before_round_data_depolarization": 0.012,
+      "before_measure_flip_probability": 0.012,
+      "after_reset_flip_probability": 0.012
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.11076069998671301,
+    "failures": 8122,
+    "shots": 100000,
+    "logical_error_rate": 0.08122,
+    "ci95": [
+      0.0795429320579344,
+      0.08292924122864066
+    ],
+    "per_round_small_error_proxy": 0.027073333333333335
+  },
+  {
+    "distance": 3,
+    "physical_error_rate": 0.015,
+    "rounds": 3,
+    "seed": 20263113,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.015,
+      "before_round_data_depolarization": 0.015,
+      "before_measure_flip_probability": 0.015,
+      "after_reset_flip_probability": 0.015
+    },
+    "active_qubits": 17,
+    "detectors": 24,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.14755910000531003,
+    "failures": 11586,
+    "shots": 100000,
+    "logical_error_rate": 0.11586,
+    "ci95": [
+      0.11389104206547468,
+      0.11785846996066066
+    ],
+    "per_round_small_error_proxy": 0.03862
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.001,
+    "rounds": 5,
+    "seed": 20263114,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.001,
+      "before_round_data_depolarization": 0.001,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.11893109999073204,
+    "failures": 17,
+    "shots": 100000,
+    "logical_error_rate": 0.00017,
+    "ci95": [
+      0.00010614727173743861,
+      0.0002722527803873228
+    ],
+    "per_round_small_error_proxy": 3.4e-05
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.002,
+    "rounds": 5,
+    "seed": 20263115,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.1961823000019649,
+    "failures": 101,
+    "shots": 100000,
+    "logical_error_rate": 0.00101,
+    "ci95": [
+      0.0008313661880741734,
+      0.0012269693300214486
+    ],
+    "per_round_small_error_proxy": 0.000202
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.003,
+    "rounds": 5,
+    "seed": 20263116,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.003,
+      "before_round_data_depolarization": 0.003,
+      "before_measure_flip_probability": 0.003,
+      "after_reset_flip_probability": 0.003
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.26824789999227505,
+    "failures": 334,
+    "shots": 100000,
+    "logical_error_rate": 0.00334,
+    "ci95": [
+      0.0030009787527545233,
+      0.0037171777602364627
+    ],
+    "per_round_small_error_proxy": 0.000668
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.004,
+    "rounds": 5,
+    "seed": 20263117,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.004,
+      "before_round_data_depolarization": 0.004,
+      "before_measure_flip_probability": 0.004,
+      "after_reset_flip_probability": 0.004
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.3494028999994043,
+    "failures": 733,
+    "shots": 100000,
+    "logical_error_rate": 0.00733,
+    "ci95": [
+      0.006819904784283761,
+      0.007877945192068813
+    ],
+    "per_round_small_error_proxy": 0.0014659999999999999
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.005,
+    "rounds": 5,
+    "seed": 20263118,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.005,
+      "before_round_data_depolarization": 0.005,
+      "before_measure_flip_probability": 0.005,
+      "after_reset_flip_probability": 0.005
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.4662302999931853,
+    "failures": 1392,
+    "shots": 100000,
+    "logical_error_rate": 0.01392,
+    "ci95": [
+      0.013212300043969893,
+      0.014665043647558839
+    ],
+    "per_round_small_error_proxy": 0.002784
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.006,
+    "rounds": 5,
+    "seed": 20263119,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.006,
+      "before_round_data_depolarization": 0.006,
+      "before_measure_flip_probability": 0.006,
+      "after_reset_flip_probability": 0.006
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.5596438999928068,
+    "failures": 2352,
+    "shots": 100000,
+    "logical_error_rate": 0.02352,
+    "ci95": [
+      0.022598855558426802,
+      0.024477750601340335
+    ],
+    "per_round_small_error_proxy": 0.004704
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.007,
+    "rounds": 5,
+    "seed": 20263120,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.007,
+      "before_round_data_depolarization": 0.007,
+      "before_measure_flip_probability": 0.007,
+      "after_reset_flip_probability": 0.007
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.556460399995558,
+    "failures": 3435,
+    "shots": 100000,
+    "logical_error_rate": 0.03435,
+    "ci95": [
+      0.03323895577101121,
+      0.03549681836073738
+    ],
+    "per_round_small_error_proxy": 0.006869999999999999
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.008,
+    "rounds": 5,
+    "seed": 20263121,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.008,
+      "before_round_data_depolarization": 0.008,
+      "before_measure_flip_probability": 0.008,
+      "after_reset_flip_probability": 0.008
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.6940404000051785,
+    "failures": 4847,
+    "shots": 100000,
+    "logical_error_rate": 0.04847,
+    "ci95": [
+      0.0471562027163262,
+      0.04981848662912304
+    ],
+    "per_round_small_error_proxy": 0.009694
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.009,
+    "rounds": 5,
+    "seed": 20263122,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.009,
+      "before_round_data_depolarization": 0.009,
+      "before_measure_flip_probability": 0.009,
+      "after_reset_flip_probability": 0.009
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.7847442999918712,
+    "failures": 6462,
+    "shots": 100000,
+    "logical_error_rate": 0.06462,
+    "ci95": [
+      0.06311287007643121,
+      0.0661605785254816
+    ],
+    "per_round_small_error_proxy": 0.012924
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.01,
+    "rounds": 5,
+    "seed": 20263123,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.01,
+      "before_round_data_depolarization": 0.01,
+      "before_measure_flip_probability": 0.01,
+      "after_reset_flip_probability": 0.01
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.8997178999998141,
+    "failures": 8478,
+    "shots": 100000,
+    "logical_error_rate": 0.08478,
+    "ci95": [
+      0.08306944529178235,
+      0.08652245449343111
+    ],
+    "per_round_small_error_proxy": 0.016956
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.012,
+    "rounds": 5,
+    "seed": 20263124,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.012,
+      "before_round_data_depolarization": 0.012,
+      "before_measure_flip_probability": 0.012,
+      "after_reset_flip_probability": 0.012
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.0640888000052655,
+    "failures": 12515,
+    "shots": 100000,
+    "logical_error_rate": 0.12515,
+    "ci95": [
+      0.12311355490584801,
+      0.12721524340465554
+    ],
+    "per_round_small_error_proxy": 0.025030000000000004
+  },
+  {
+    "distance": 5,
+    "physical_error_rate": 0.015,
+    "rounds": 5,
+    "seed": 20263125,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.015,
+      "before_round_data_depolarization": 0.015,
+      "before_measure_flip_probability": 0.015,
+      "after_reset_flip_probability": 0.015
+    },
+    "active_qubits": 49,
+    "detectors": 120,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.2704254999989644,
+    "failures": 19261,
+    "shots": 100000,
+    "logical_error_rate": 0.19261,
+    "ci95": [
+      0.19017766871987232,
+      0.19506594689348147
+    ],
+    "per_round_small_error_proxy": 0.038522
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.001,
+    "rounds": 7,
+    "seed": 20263126,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.001,
+      "before_round_data_depolarization": 0.001,
+      "before_measure_flip_probability": 0.001,
+      "after_reset_flip_probability": 0.001
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.3830137999902945,
+    "failures": 2,
+    "shots": 100000,
+    "logical_error_rate": 2e-05,
+    "ci95": [
+      5.484738516524055e-06,
+      7.292683754201227e-05
+    ],
+    "per_round_small_error_proxy": 2.8571428571428573e-06
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.002,
+    "rounds": 7,
+    "seed": 20263127,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.002,
+      "before_round_data_depolarization": 0.002,
+      "before_measure_flip_probability": 0.002,
+      "after_reset_flip_probability": 0.002
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.6320102000026964,
+    "failures": 35,
+    "shots": 100000,
+    "logical_error_rate": 0.00035,
+    "ci95": [
+      0.00025168456165326894,
+      0.00048670166175096265
+    ],
+    "per_round_small_error_proxy": 5e-05
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.003,
+    "rounds": 7,
+    "seed": 20263128,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.003,
+      "before_round_data_depolarization": 0.003,
+      "before_measure_flip_probability": 0.003,
+      "after_reset_flip_probability": 0.003
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 0.7906921000103466,
+    "failures": 151,
+    "shots": 100000,
+    "logical_error_rate": 0.00151,
+    "ci95": [
+      0.0012877300748952308,
+      0.0017705670300878081
+    ],
+    "per_round_small_error_proxy": 0.00021571428571428571
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.004,
+    "rounds": 7,
+    "seed": 20263129,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.004,
+      "before_round_data_depolarization": 0.004,
+      "before_measure_flip_probability": 0.004,
+      "after_reset_flip_probability": 0.004
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.0659478000015952,
+    "failures": 418,
+    "shots": 100000,
+    "logical_error_rate": 0.00418,
+    "ci95": [
+      0.0037987231309727964,
+      0.004599368847989049
+    ],
+    "per_round_small_error_proxy": 0.0005971428571428571
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.005,
+    "rounds": 7,
+    "seed": 20263130,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.005,
+      "before_round_data_depolarization": 0.005,
+      "before_measure_flip_probability": 0.005,
+      "after_reset_flip_probability": 0.005
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.355457400000887,
+    "failures": 995,
+    "shots": 100000,
+    "logical_error_rate": 0.00995,
+    "ci95": [
+      0.00935338805178404,
+      0.010584260639858602
+    ],
+    "per_round_small_error_proxy": 0.0014214285714285715
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.006,
+    "rounds": 7,
+    "seed": 20263131,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.006,
+      "before_round_data_depolarization": 0.006,
+      "before_measure_flip_probability": 0.006,
+      "after_reset_flip_probability": 0.006
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 1.7373617999983253,
+    "failures": 1974,
+    "shots": 100000,
+    "logical_error_rate": 0.01974,
+    "ci95": [
+      0.018896098679437937,
+      0.02062079788346033
+    ],
+    "per_round_small_error_proxy": 0.00282
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.007,
+    "rounds": 7,
+    "seed": 20263132,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.007,
+      "before_round_data_depolarization": 0.007,
+      "before_measure_flip_probability": 0.007,
+      "after_reset_flip_probability": 0.007
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 2.1258816000045044,
+    "failures": 3302,
+    "shots": 100000,
+    "logical_error_rate": 0.03302,
+    "ci95": [
+      0.031930309989081675,
+      0.03414556632154638
+    ],
+    "per_round_small_error_proxy": 0.004717142857142857
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.008,
+    "rounds": 7,
+    "seed": 20263133,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.008,
+      "before_round_data_depolarization": 0.008,
+      "before_measure_flip_probability": 0.008,
+      "after_reset_flip_probability": 0.008
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 2.349205399994389,
+    "failures": 5325,
+    "shots": 100000,
+    "logical_error_rate": 0.05325,
+    "ci95": [
+      0.051875446300845354,
+      0.0546588758152476
+    ],
+    "per_round_small_error_proxy": 0.007607142857142857
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.009,
+    "rounds": 7,
+    "seed": 20263134,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.009,
+      "before_round_data_depolarization": 0.009,
+      "before_measure_flip_probability": 0.009,
+      "after_reset_flip_probability": 0.009
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 2.8010704000043916,
+    "failures": 7526,
+    "shots": 100000,
+    "logical_error_rate": 0.07526,
+    "ci95": [
+      0.07364118177289257,
+      0.07691144939798446
+    ],
+    "per_round_small_error_proxy": 0.01075142857142857
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.01,
+    "rounds": 7,
+    "seed": 20263135,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.01,
+      "before_round_data_depolarization": 0.01,
+      "before_measure_flip_probability": 0.01,
+      "after_reset_flip_probability": 0.01
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 3.1422470999968937,
+    "failures": 10375,
+    "shots": 100000,
+    "logical_error_rate": 0.10375,
+    "ci95": [
+      0.10187521829358007,
+      0.10565522409814199
+    ],
+    "per_round_small_error_proxy": 0.01482142857142857
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.012,
+    "rounds": 7,
+    "seed": 20263136,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.012,
+      "before_round_data_depolarization": 0.012,
+      "before_measure_flip_probability": 0.012,
+      "after_reset_flip_probability": 0.012
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 3.7976622999995016,
+    "failures": 16606,
+    "shots": 100000,
+    "logical_error_rate": 0.16606,
+    "ci95": [
+      0.16376636523919025,
+      0.16837929011044173
+    ],
+    "per_round_small_error_proxy": 0.023722857142857146
+  },
+  {
+    "distance": 7,
+    "physical_error_rate": 0.015,
+    "rounds": 7,
+    "seed": 20263137,
+    "task": "surface_code:rotated_memory_z",
+    "noise": {
+      "after_clifford_depolarization": 0.015,
+      "before_round_data_depolarization": 0.015,
+      "before_measure_flip_probability": 0.015,
+      "after_reset_flip_probability": 0.015
+    },
+    "active_qubits": 97,
+    "detectors": 336,
+    "num_observables": 1,
+    "decoder": "PyMatching default uncorrelated MWPM; decomposed DEM",
+    "elapsed_seconds": 5.050076999992598,
+    "failures": 27228,
+    "shots": 100000,
+    "logical_error_rate": 0.27228,
+    "ci95": [
+      0.2695298728457874,
+      0.2750476220222075
+    ],
+    "per_round_small_error_proxy": 0.03889714285714286
+  }
+]
