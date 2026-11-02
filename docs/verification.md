@@ -7,7 +7,7 @@ The first repository commit wrote `docs/concepts.md` and froze `docs/experiment-
 - First pytest run: **71 passed, 0 failed, 0 errors, 0 skipped**. Tests include exhaustive protected-channel repetition patterns through half distance, all single initial surface-data X faults at d=3/5, seeded noise/decoder checks, confidence intervals/crossings/scaling, resource formulas, CPU MLP save/load/predict, and five plot files from actual small experiments.
 - Ruff initially identified import ordering, multi-statement formatting and a loop-variable closure in report formatting. These were fixed before committing source.
 
-Full-run measured results and CI evidence will be appended after execution. Quick-profile crossings and fits are explicitly smoke results, not the full experiment's scientific conclusions.
+Full-run measured results and CI evidence are recorded below. Quick-profile crossings and fits are explicitly smoke results, not the full experiment's scientific conclusions.
 
 Visual review of the first full-run plots caught a presentation error: the unencoded y=p reference joined only its endpoints on a log-y plot, drawing the wrong intervening curve. The reference is now sampled densely, and the plot integration test checks its rendered geometry at p=0.1. Raw error counts, decoders and scientific settings were unchanged. The full command is rerun after this plotting correction; the report also explicitly discusses the distance-pair threshold spread and physical-p extrapolation in all resource rows.
 
@@ -38,4 +38,18 @@ ML test counts, 40,000 independent held-out shots per row:
 
 Surface MLP was worse than MWPM at all three p values, supported by paired approximate intervals. It was better than the empirical lookup at p=0.01/0.02; its observed worse result at p=0.003 versus lookup is statistically inconclusive. Repetition predictions had identical error outcomes. These are small model/data experiments, not an ML superiority claim.
 
-CI setup PR and its executed matrix evidence are pending.
+## CI and the merged setup PR
+
+[PR #1](https://github.com/hamza2829/qec-simulation-lab/pull/1) was merged on 3 November 2026 (Europe/Berlin; GitHub UTC timestamp 2026-11-02T23:17:42Z) after [its CI run](https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544017792) passed both Python versions. The post-merge [main-branch run 41544300363](https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544300363) **completed successfully** for commit `9b6f56dfec49132f4a06e1b56ea704a818e2f922`. Later README/docs-only commits save this evidence without changing tested source or the measured experiment.
+
+| Environment | Tests | Passed | Failed | Errors | Skipped |
+|---|---:|---:|---:|---:|---:|
+| Local Python 3.11 | 71 | 71 | 0 | 0 | 0 |
+| CI Python 3.10 | 71 | 71 | 0 | 0 | 0 |
+| CI Python 3.12 | 71 | 71 | 0 | 0 | 0 |
+
+The CI counts were calculated from downloaded original JUnit XML, not source annotations. These are 71 distinct tests exercised in three environments; the two CI matrix jobs total 142 executions. Both CI runs in this build passed; no CI or pytest failure was hidden. Setup, estimator and plotting corrections remain described above.
+
+Both matrix jobs passed Ruff lint/format, pytest and the reduced command `python -m qec run --quick --output artifacts/quick`. Each uploaded exactly five PNG plots plus JSON, trained model checkpoints, `report.md`, and test XML. The job checked that committed full `results/` files were unchanged. Downloaded run metadata confirms `torch=2.10.0+cpu`, `device=cpu`, and `torch_cuda_build=null` on both versions. No Docker, accelerator, quantum hardware, or quantum-cloud account was used.
+
+Original [XML and quick-run CPU metadata](ci-evidence/) are committed alongside a [machine-counted summary](ci-results.json). The [main run's artifacts](https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544300363#artifacts) contain the quick plots/reports. They use 1,000 surface shots per point, 100 bootstrap replicates, and much smaller ML datasets; they are functionality checks, not validation of the full statistical conclusions. Full local JSON, plots and uncertainty remain under `results/`.

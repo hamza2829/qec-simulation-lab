@@ -1,0 +1,13 @@
+{
+  "profile": "quick",
+  "seed": 20261102,
+  "repetition_shots": 2000,
+  "phenomenological_shots": 128,
+  "surface_shots": 1000,
+  "calibration_shots": 3000,
+  "bootstrap_replicates": 100,
+  "ml_train": 1024,
+  "ml_validation": 256,
+  "ml_test": 512,
+  "ml_epochs": 2
+}

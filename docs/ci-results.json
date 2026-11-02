@@ -1,0 +1,76 @@
+{
+  "run": {
+    "conclusion": "success",
+    "databaseId": 41544300363,
+    "headSha": "9b6f56dfec49132f4a06e1b56ea704a818e2f922",
+    "status": "completed",
+    "url": "https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544300363"
+  },
+  "matrix": {
+    "3.10": {
+      "pytest": {
+        "tests": 71,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 71
+      },
+      "quick_profile": {
+        "profile": "quick",
+        "seed": 20261102,
+        "repetition_shots": 2000,
+        "phenomenological_shots": 128,
+        "surface_shots": 1000,
+        "calibration_shots": 3000,
+        "bootstrap_replicates": 100,
+        "ml_train": 1024,
+        "ml_validation": 256,
+        "ml_test": 512,
+        "ml_epochs": 2
+      },
+      "plots": [
+        "ml_comparison.png",
+        "phenomenological.png",
+        "repetition.png",
+        "scaling.png",
+        "surface_code.png"
+      ],
+      "torch": "2.10.0+cpu",
+      "device": "cpu",
+      "torch_cuda_build": null
+    },
+    "3.12": {
+      "pytest": {
+        "tests": 71,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 71
+      },
+      "quick_profile": {
+        "profile": "quick",
+        "seed": 20261102,
+        "repetition_shots": 2000,
+        "phenomenological_shots": 128,
+        "surface_shots": 1000,
+        "calibration_shots": 3000,
+        "bootstrap_replicates": 100,
+        "ml_train": 1024,
+        "ml_validation": 256,
+        "ml_test": 512,
+        "ml_epochs": 2
+      },
+      "plots": [
+        "ml_comparison.png",
+        "phenomenological.png",
+        "repetition.png",
+        "scaling.png",
+        "surface_code.png"
+      ],
+      "torch": "2.10.0+cpu",
+      "device": "cpu",
+      "torch_cuda_build": null
+    }
+  },
+  "full_results_are_separate": true
+}

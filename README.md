@@ -1,12 +1,16 @@
 # qec-simulation-lab
 
+[![CPU QEC lab](https://github.com/hamza2829/qec-simulation-lab/actions/workflows/cpu-qec.yml/badge.svg)](https://github.com/hamza2829/qec-simulation-lab/actions/workflows/cpu-qec.yml)
+
 A readable **Python 3.11, CPU-only** lab for implementing, simulating and decoding error-correcting memories. Start with [the concepts and worked examples](docs/concepts.md), written in the first commit, then follow the code and the [experiment plan fixed before the full run](docs/experiment-plan.md).
 
 Own NumPy repetition codes, a noisy-measurement variant, Stim rotated-surface-code circuits decoded with PyMatching, confidence intervals, simplified resource extrapolation, and two small PyTorch MLP experiments. **No Docker, quantum hardware, quantum cloud account, provider API, or GPU is required.**
 
 ## Measured results
 
-Full experiments ran on CPU on **3 November 2026 (Europe/Berlin)**; UTC timestamps, exact package versions and elapsed time are in [environment.json](results/environment.json). **71 pytest tests passed locally**, with 0 failures/errors/skips. CI setup and verification are pending.
+Full experiments ran on CPU on **3 November 2026 (Europe/Berlin)**; UTC timestamps, exact package versions and elapsed time are in [environment.json](results/environment.json). **71 pytest tests passed locally on Python 3.11**, and [main-branch CI passed](https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544300363) **71 tests on Python 3.10 and 71 on Python 3.12**, with **0 failures, 0 errors, 0 skipped**. That is 142 CI executions of the same 71 tests. Ruff and the reduced CPU sweep passed on both versions. The CI setup was merged through [PR #1](https://github.com/hamza2829/qec-simulation-lab/pull/1).
+
+Each [CI artifact](https://github.com/hamza2829/qec-simulation-lab/actions/runs/41544300363#artifacts) contains five PNGs, quick-profile JSON/report/models and original pytest XML. [Saved CI evidence](docs/ci-results.json) records the actual counts and CPU-only build metadata. CI uses **1,000 shots per surface point**, not the full budgets below; its smoke estimates are not replacements for the committed full experiment.
 
 | Surface distance pair | Finite-size crossing estimate | Conditional 95% bootstrap CI |
 |---|---:|---:|
