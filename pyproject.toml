@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qec-simulation-lab"
+version = "0.1.0"
+description = "Readable CPU simulations of repetition and surface-code memories"
+requires-python = ">=3.10"
+dependencies = ["numpy==2.2.6", "matplotlib==3.10.8", "stim==1.16.0", "pymatching==2.4.0", "torch==2.10.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "ruff==0.17.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
