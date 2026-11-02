@@ -50,7 +50,10 @@ def write_plots(data: dict, directory: Path) -> list[str]:
             [row["majority"] for row in rows],
             f"d={distance}; majority=lookup",
         )
-    ax.plot([0.005, 0.5], [0.005, 0.5], "--", color="black", label="Unencoded: p")
+    # On a log-y axis, joining only two endpoints would draw an exponential,
+    # not the intended unencoded probability y=p. Sample the reference densely.
+    reference = np.linspace(0.005, 0.5, 300)
+    ax.plot(reference, reference, "--", color="black", label="Unencoded: p")
     ax.axvline(0.5, linestyle=":", color="gray", label="Analytical break-even p=0.5")
     ax.set(
         yscale="log",
@@ -96,6 +99,12 @@ def write_plots(data: dict, directory: Path) -> list[str]:
     axes[0].set_ylabel("Logical failure per full experiment")
     axes[1].legend(fontsize=8)
     fig.suptitle("NumPy phenomenological noise · perfect final data readout")
+    fig.text(
+        0.01,
+        -0.03,
+        "95% Wilson bars; hollow triangles are upper limits for zero observed failures.",
+        fontsize=8,
+    )
     name = "phenomenological.png"
     _finish(fig, directory / name)
     names.append(name)

@@ -93,7 +93,26 @@ def test_paired_comparison_distinguishes_direction_from_equality():
     assert paired_comparison(ml, ml)["identical_error_outcomes"]
 
 
-def test_plots_json_models_and_report_are_written_from_real_small_experiments(tmp_path):
+def test_plots_json_models_and_report_are_written_from_real_small_experiments(
+    tmp_path, monkeypatch
+):
+    import qec.plots as plotting
+
+    original_finish = plotting._finish
+
+    def check_reference_and_save(fig, path):
+        if path.name == "repetition.png":
+            ax = fig.axes[0]
+            line = next(line for line in ax.lines if line.get_label() == "Unencoded: p")
+            # Check the rendered polyline against y=p in display coordinates.
+            # Two endpoints on a semilog plot satisfy endpoint values but draw the wrong curve.
+            vertices = line.get_transform().transform(line.get_xydata())
+            expected_x, expected_y = ax.transData.transform((0.1, 0.1))
+            actual_y = np.interp(expected_x, vertices[:, 0], vertices[:, 1])
+            assert abs(actual_y - expected_y) < 0.2
+        original_finish(fig, path)
+
+    monkeypatch.setattr(plotting, "_finish", check_reference_and_save)
     config = replace(
         ExperimentConfig.quick(),
         repetition_shots=128,

@@ -87,6 +87,16 @@ def build_report(data: dict) -> str:
         lines.append(
             f"| {pair} | {_percent_ci(result['estimate'], result['conditional_ci95'])} | {100 * result['bootstrap_no_crossing_fraction']:.1f}% |"
         )
+    estimates = [
+        result["estimate"]
+        for result in data["thresholds"]["pairs"].values()
+        if result["estimate"] is not None
+    ]
+    if len(estimates) > 1:
+        lines += [
+            "",
+            f"Distance-pair estimates range from **{100 * min(estimates):.4f}% to {100 * max(estimates):.4f}%**. This pair dependence is a finite-size warning, not extra independent measurements of one universal threshold. A single pair's sampling interval does not capture this systematic spread.",
+        ]
     primary = data["thresholds"]["pairs"]["5-7"]["estimate"]
     comparison = (
         "not identified, so no numerical comparison is justified"
@@ -134,7 +144,7 @@ def build_report(data: dict) -> str:
         )
     lines += [
         "",
-        "Bootstrap distance intervals omit model bias and are conditional on solvable bootstrap fits; unresolved fractions are in resources.json. These very small target rates are **extrapolated, not directly observed or validated**.",
+        "Bootstrap distance intervals omit model bias and are conditional on solvable bootstrap fits; unresolved fractions are in resources.json. All four rows extrapolate in physical p, even when the chosen distance lies inside d=3,5,7. A narrow or single-integer bootstrap interval does not imply model certainty. These very small target rates are **extrapolated, not directly observed or validated**.",
         "",
         "## Small PyTorch MLP decoder experiment",
         "",

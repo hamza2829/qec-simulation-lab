@@ -8,3 +8,5 @@ The first repository commit wrote `docs/concepts.md` and froze `docs/experiment-
 - Ruff initially identified import ordering, multi-statement formatting and a loop-variable closure in report formatting. These were fixed before committing source.
 
 Full-run measured results and CI evidence will be appended after execution. Quick-profile crossings and fits are explicitly smoke results, not the full experiment's scientific conclusions.
+
+Visual review of the first full-run plots caught a presentation error: the unencoded y=p reference joined only its endpoints on a log-y plot, drawing the wrong intervening curve. The reference is now sampled densely, and the plot integration test checks its rendered geometry at p=0.1. Raw error counts, decoders and scientific settings were unchanged. The full command is rerun after this plotting correction; the report also explicitly discusses the distance-pair threshold spread and physical-p extrapolation in all resource rows.
